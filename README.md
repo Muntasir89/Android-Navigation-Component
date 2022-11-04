@@ -3,8 +3,7 @@ Navigation refers to the interactions that allow users to navigate across, into,
 
 # Output
 ## FirstFragment
-![Screenshot_2022-11-05-00-03-04-07_38b76c94a9991a59ecfa8ddd051eb927 (1)](https://user-images.githubusercontent.com/78687005/200048706-fd0ec4ce-7dee-49e6-bca5-f6066cd80af7.jpg)
-
+![resize-16675866611057730341Screenshot202211050003040738b76c94a9991a59ecfa8ddd051eb927](https://user-images.githubusercontent.com/78687005/200049626-d0b581d0-40ac-4929-800c-5088e827b904.jpg)
 
 ## SecondFragment
-![Screenshot_2022-11-05-00-03-10-09_38b76c94a9991a59ecfa8ddd051eb927 (1)](https://user-images.githubusercontent.com/78687005/200048871-bd26adf5-e54d-47dd-bde6-261d0ee266b8.jpg)
+![resize-16675868331737752965Screenshot202211050003100938b76c94a9991a59ecfa8ddd051eb9271](https://user-images.githubusercontent.com/78687005/200050104-91d8d8b9-c7be-4821-90ae-882c60063dd0.jpg)
