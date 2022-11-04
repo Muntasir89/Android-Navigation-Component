@@ -6,4 +6,4 @@ Navigation refers to the interactions that allow users to navigate across, into,
 ![resize-16675866611057730341Screenshot202211050003040738b76c94a9991a59ecfa8ddd051eb927](https://user-images.githubusercontent.com/78687005/200049626-d0b581d0-40ac-4929-800c-5088e827b904.jpg)
 
 ## SecondFragment
-![resize-16675868331737752965Screenshot202211050003100938b76c94a9991a59ecfa8ddd051eb9271](https://user-images.githubusercontent.com/78687005/200050104-91d8d8b9-c7be-4821-90ae-882c60063dd0.jpg)
+![resize-16675869961931251272Screenshot202211050003100938b76c94a9991a59ecfa8ddd051eb9271](https://user-images.githubusercontent.com/78687005/200050536-ccb4ab25-6c30-4116-a9c9-4ff6997301f5.jpg)
