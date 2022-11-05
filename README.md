@@ -15,31 +15,8 @@ buildFeatures{
 ```
 </br>
 ### Fragment code with ViewBinding
-```
-class FirstFragment : Fragment() {
-    private var _binding:FragmentFirstBinding? = null
-    private val binding get() = _binding!!
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View{
-        _binding = FragmentFirstBinding.inflate(inflater, container, false)
-        // Inflate the layout for this fragment
-        return binding.root
-    }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        binding.textView1.setOnClickListener{Navigation.findNavController(view).navigate(R.id.navigateToSecondFragment)}
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        _binding = null
-    }
-```
-
-
+![ViewBindingKotlin](https://user-images.githubusercontent.com/78687005/200106985-56f48da3-5212-4ed6-816c-dc2d4277d916.JPG)
 
 # Output
 ## FirstFragment
