@@ -14,8 +14,7 @@ buildFeatures{
 }
 ```
 </br>
-### Fragment code with ViewBinding
-
+### Fragment code with ViewBinding</br>
 ![ViewBindingKotlin](https://user-images.githubusercontent.com/78687005/200106985-56f48da3-5212-4ed6-816c-dc2d4277d916.JPG)
 
 # Output
