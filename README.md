@@ -13,9 +13,8 @@ buildFeatures{
     viewBinding = true
 }
 ```
-</br>
-### Fragment code with ViewBinding</br>
-![ViewBindingKotlin](https://user-images.githubusercontent.com/78687005/200106985-56f48da3-5212-4ed6-816c-dc2d4277d916.JPG)
+### Fragment code with ViewBinding
+![ViewBindingKotlin](https://user-images.githubusercontent.com/78687005/200107058-ce44d839-0850-487f-ac62-eb6c632d988c.JPG)
 
 # Output
 ## FirstFragment
