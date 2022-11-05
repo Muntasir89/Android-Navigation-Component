@@ -7,19 +7,28 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.navigation.Navigation
+import com.example.navigationapp.databinding.FragmentFirstBinding
 
 class FirstFragment : Fragment() {
-    private lateinit var textView1: TextView
+    private var _binding:FragmentFirstBinding? = null
+    private val binding get() = _binding!!
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View{
+        _binding = FragmentFirstBinding.inflate(inflater, container, false)
         // Inflate the layout for this fragment
-        val view =  inflater.inflate(R.layout.fragment_first, container, false)
+        return binding.root
+    }
 
-        textView1 = view.findViewById(R.id.textView1)
-        textView1.setOnClickListener{Navigation.findNavController(view).navigate(R.id.navigateToSecondFragment)}
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.textView1.setOnClickListener{Navigation.findNavController(view).navigate(R.id.navigateToSecondFragment)}
+    }
 
-        return view
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
     }
 }

@@ -9,5 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //val firstFragment:FirstFragment = FirstFragment()
+        //supportFragmentManager.beginTransaction().add(R.id.fragmentContainer, firstFragment).commit()
     }
 }
